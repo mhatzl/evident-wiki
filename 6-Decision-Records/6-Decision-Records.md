@@ -1,8 +1,16 @@
-{{
+This section contains decision records for *evident*.
 
-This section contains decision records for the system.
+## Overview
 
-}}
+**Important Decisions:**
+
+- [DR-20230809_1](6-DR-20230809_1) ... Decision on how to capture events
+- [DR-20230809_2](6-DR-20230809_2) ... Decision about multithreaded pub/sub
+
+**Latest Decisions:**
+
+- [DR-20230809_1](6-DR-20230809_1) ... Decision on how to capture events
+- [DR-20230809_2](6-DR-20230809_2) ... Decision about multithreaded pub/sub
 
 ## Guidelines
 

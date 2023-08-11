@@ -2,12 +2,18 @@ This section contains requirements for the system.
 
 ## Requirements Overview
 
-{{
-  
-List and link to the high-level requirements of the system.
-You may also list and link to the most impactful 10 to 20 requirements of the system.
+**High-Level Active Requirements:**
 
-}}
+- [<req>cap](5.a-REQact-cap) ... Contains requirements about capturing events
+- [<req>event](5.a-REQact-event) ... Contains requirements about the structure of an event
+- [<req>pub](5.a-REQact-pub) ... Contains requirements about how events are published
+- [<req>qa](5.a-REQact-qa) ... Contains requirements about general quality assurance
+- [<req>subs](5.a-REQact-subs) ... Contains requirements about event-subscriptions
+
+**Important Active Requirements:**
+
+- [<req>event.id](5.a-REQact-event.id) ... Contains requirements about event-IDs
+- [<req>pub](5.a-REQact-pub) ... Contains requirements about how events are published
 
 ## Requirements Workflow
 
