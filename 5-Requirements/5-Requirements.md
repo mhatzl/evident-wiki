@@ -98,4 +98,24 @@ A requirement goes through the following phases:
 
 ## Definition of Ready
 
+A requirement may be considered **ready** if it fulfills the following statements:
 
+- **General:**
+
+  - It is clear where the requirement must be placed in the wiki
+  - The ID for the requirement is decided and unique in the wiki
+  - All currently raised concerns by stakeholders are resolved
+
+- **For high-level requirements:**
+
+  - The intent of the requirement is covered by the existing sub-requirements 
+  - All sub-requirements fulfill their Definition of Ready
+
+  **Note:** If the requirement does not fulfill these statements, try refining existing sub-requirements, or create additional ones.
+
+- **For low-level requirements:**
+
+  - At least one developer understands how to implement it
+  - Implementation is estimated to take less than two weeks for one developer
+
+  **Note:** If the requirement does not fulfill these statements, consider creating sub-requirements for it. 
