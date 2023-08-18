@@ -42,6 +42,32 @@ A requirement goes through the following phases:
    - in branch main: 2
    ```
 
+   If it is not possible to reference a requirement, `manual` may be set instead of the number of references.
+   This marks the requirement as **active**, but requiring manual verification.
+
+   **Example:**
+
+   ```
+   # my_req: Requirement that needs manual verification
+   
+   **References**
+
+   - in branch main: manual
+   ```
+
+   A manually verified requirement may get references in the future.
+   The number of references is then added after the `manual` keyword.
+
+   **Example:**
+
+   ```
+   # my_req: Requirement that needs manual verification, but is also references in code
+   
+   **References**
+
+   - in branch main: manual + 3
+   ```
+
 5. If a requirement is replaced or removed by another requirement, the requirement gets **deprecated**.
 
    Since the requirement might still be **active** in some branches, `deprecated` must be set manually to the branches
