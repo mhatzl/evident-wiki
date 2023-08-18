@@ -23,14 +23,22 @@ IDs of sub-requirements are separated by a dot "." from the parent ID.
 
 **Note:** IDs must not include any whitespace or `-` to keep IDs readable in wiki titles.
 
+**Examples:**
+
+```
+my_req
+my_req.sub_req
+other_req.sub_req.even_lower_req
+```
+
 ## Requirement Phases
 
 A requirement goes through the following phases:
 
-1. Requirements are **proposed**, by creating feature-request issues
-2. Once a requirement has enough information available to be implemented, it is **ready**, and must be documented in the wiki with a unique ID for tracing
-3. A requirement in **proposed** or **ready** state may be **declined**, meaning that it will not be implemented, and must be removed from the wiki if it already exists
-4. When the implementation of a requirement is merged, the requirement gets **active**, and the number of times the requirement is referenced is added to the wiki
+1. **proposed** ... Requirements are **proposed**, by creating feature-request issues
+2. **ready** ... Once a requirement has enough information available to be implemented, it is **ready**, and must be documented in the wiki with a unique ID for tracing
+3. **Optional: declined** ... A requirement in **proposed** or **ready** state may be **declined**, meaning that it will not be implemented, and must be removed from the wiki if it already exists
+4. **active** ... When the implementation of a requirement is merged, the requirement gets **active**, and the number of times the requirement is referenced is added to the wiki
 
    **Example:**
 
@@ -68,7 +76,7 @@ A requirement goes through the following phases:
    - in branch main: manual + 3
    ```
 
-5. If a requirement is replaced or removed by another requirement, the requirement gets **deprecated**.
+5. **deprecated** ... If a requirement is replaced or removed by another requirement, the requirement gets **deprecated**.
 
    Since the requirement might still be **active** in some branches, `deprecated` must be set manually to the branches
    the requirement is deprecated.
