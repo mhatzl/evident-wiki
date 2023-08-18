@@ -8,8 +8,8 @@ As a user, I want that set events are captured and sent to subscribers, to creat
 
 ## Other active sub-requirements
 
-- [req:cap.ctrl](5.a-REQact-cap.ctrl)
-- [req:cap.filter](5.a-REQact-cap.filter)
+- [req:cap.ctrl](5-REQ-cap.ctrl)
+- [req:cap.filter](5-REQ-cap.filter)
 
 ## cap.test.recv: Captured event received by a subscriber
 

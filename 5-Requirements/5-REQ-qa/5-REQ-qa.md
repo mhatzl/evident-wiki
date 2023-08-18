@@ -67,5 +67,5 @@ Therefore, sustainability should be considered during design decisions and devel
 
 ## Other active sub-requirements
 
-- [req:qa.pipeline](5.a-REQact-qa.pipeline)
-- [req:qa.ux](5.a-REQact-qa.ux)
+- [req:qa.pipeline](5-REQ-qa.pipeline)
+- [req:qa.ux](5-REQ-qa.ux)

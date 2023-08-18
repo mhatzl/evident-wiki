@@ -24,6 +24,6 @@ As a user, I want to set an event, because I want to notify subscribers.
 
 ## Other active sub-requirements
 
-- [req:event.id](5.a-REQact-event.id)
-- [req:event.entry](5.a-REQact-event.entry)
-- [req:event.origin](5.a-REQact-event.origin)
+- [req:event.id](5-REQ-event.id)
+- [req:event.entry](5-REQ-event.entry)
+- [req:event.origin](5-REQ-event.origin)
