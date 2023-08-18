@@ -15,20 +15,20 @@ This section contains requirements for the system.
 - [req:event.id](5-REQ-event.id) ... Contains requirements about event-IDs
 - [req:pub](5-REQ-pub) ... Contains requirements about how events are published
 
-## Requirements Tag
+## Requirement ID
 
-Tags help to easily reference requirements.
-Requirement tags may be grouped to create a hierarchy of requirements.
-Tags of sub-requirements are separated by a dot "." from the parent requirement tag.
+IDs help to easily reference requirements.
+Requirement IDs may be grouped to create a hierarchy of requirements.
+IDs of sub-requirements are separated by a dot "." from the parent ID.
 
-**Note:** Tags must not include any whitespace or `-` to keep tags readable in wiki titles.
+**Note:** IDs must not include any whitespace or `-` to keep IDs readable in wiki titles.
 
 ## Requirement Phases
 
 A requirement goes through the following phases:
 
 1. Requirements are **proposed**, by creating feature-request issues
-2. Once a requirement has enough information available to be implemented, it is **ready**, and must be documented in the wiki with a unique tag for tracing 
+2. Once a requirement has enough information available to be implemented, it is **ready**, and must be documented in the wiki with a unique ID for tracing
 3. A requirement in **proposed** or **ready** state may be **declined**, meaning that it will not be implemented, and must be removed from the wiki if it already exists
 4. When the implementation of a requirement is merged, the requirement gets **active**, and the number of times the requirement is referenced is added to the wiki
 
