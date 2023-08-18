@@ -6,7 +6,9 @@
 
 As a user, I want to know the crate, module, and line number the event was set at, because this enables more filter options.
 
-**Implementation Details:** Macros must be used to get the event origin directly without user interaction.
+## Implementation Details
+
+Macros must be used to get the event origin directly without user interaction.
 
 ## event.origin.test.basic: Origin of set event points to `set_event!()` call
 

@@ -6,7 +6,7 @@
 
 As a user, I want to subscribe to events, because I want to be able to react to them.
 
-## Other active sub-requirements
+## Active sub-requirements
 
 - [req:subs.all](5-REQ-subs.all)
 - [req:subs.specific](5-REQ-subs.specific)

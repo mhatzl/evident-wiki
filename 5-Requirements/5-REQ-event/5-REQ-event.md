@@ -6,24 +6,10 @@
 
 As a user, I want to publish and subscribe to events, to create an event-driven architecture.
 
-## event.msg: Event Message
+## Active sub-requirements
 
-**References**
-
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
-
-As a user, I want to be able to adapt the message structure, that is sent when publishing an event, per pub/sub instance, because the message content might differ between instances.
-
-## event.set: Set an event
-
-**References**
-
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
-
-As a user, I want to set an event, because I want to notify subscribers.
-
-## Other active sub-requirements
-
-- [req:event.id](5-REQ-event.id)
 - [req:event.entry](5-REQ-event.entry)
+- [req:event.id](5-REQ-event.id)
+- [req:event.msg](5-REQ-event.msg)
 - [req:event.origin](5-REQ-event.origin)
+- [req:event.set](5-REQ-event.set)

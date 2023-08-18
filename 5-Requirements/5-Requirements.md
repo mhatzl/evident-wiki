@@ -69,3 +69,7 @@ A requirement goes through the following phases:
 
    Deprecated by [req:new_req].
    ```
+
+## Definition of Ready
+
+
