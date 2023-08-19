@@ -69,7 +69,7 @@ A requirement goes through the following phases:
    **Example:**
 
    ```
-   # my_req: Requirement that needs manual verification, but is also references in code
+   # my_req: Requirement that needs manual verification, but is also referenced in code
    
    **References**
 
