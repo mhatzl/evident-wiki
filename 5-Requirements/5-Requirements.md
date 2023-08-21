@@ -41,9 +41,10 @@ A requirement goes through the following phases:
    At this stage, the requirement should **not** yet be documented in the wiki, because it is highly likely
    that the content of the requirement will change.
 
-2. **ready** ... Once a requirement has enough information available to be implemented, it is **ready**
+2. **ready** ... Once a requirement has enough information available to be implemented, it may be considered **ready**
 
-   The requirement must be documented in the wiki with a unique ID for tracing, before it is implemented.
+   The [Definition of Ready](#definition-of-ready) defines minimum criteria a requirement must fulfill before it may be considered **ready**.
+   Before the requirement is implemented, it must be documented in the wiki with a unique ID to be used for tracing.
 
    To keep the wiki small, requirements should not be documented too far ahead of the planned implementation.
    This also makes it easier to react to changes to the requirement.
