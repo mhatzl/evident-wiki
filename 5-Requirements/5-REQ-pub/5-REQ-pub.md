@@ -8,7 +8,7 @@ As a user, I want that captured events are published to subscribers of the event
 
 ## Implementation Details
 
-A central *publisher* is used to capture all set events, and then forward those events to the subscribers that are subscribed to those events.
+A central *publisher* is used to capture all set events, and then forwards those events to the subscribers that are subscribed to those events.
 For more information, see [DR-20230809_2](6-DR-20230809_2).
 
 ## Active sub-requirements
