@@ -2,6 +2,6 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 
 As a user, I want to be able to adapt the ID per pub/sub instance, to be able to define what makes an ID unique per instance.

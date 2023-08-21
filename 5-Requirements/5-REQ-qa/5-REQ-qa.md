@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 36 (0 direct)
 
 *QA* requirements help to ensure a high quality for *evident*.
 

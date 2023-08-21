@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 8 (5 direct)
 
 As a user, I want to be able to add additional content to an event besides the event message, because content may be added conditionally.
 

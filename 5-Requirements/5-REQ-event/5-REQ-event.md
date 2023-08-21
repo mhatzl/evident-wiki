@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 38 (2 direct)
 
 As a user, I want to publish and subscribe to events, to create an event-driven architecture.
 

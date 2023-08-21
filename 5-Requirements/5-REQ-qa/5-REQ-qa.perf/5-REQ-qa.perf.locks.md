@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 
 Use as few write-locks as possible, and prefer `RwLock` over `Mutex`.
 

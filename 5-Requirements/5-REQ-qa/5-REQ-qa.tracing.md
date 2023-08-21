@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main):
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 
 Requirement IDs should be set in the *evident* repository at file locations, where the requirement is implemented,
 or where it affected the design of the implementation.

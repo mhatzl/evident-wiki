@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 5 (1 direct)
 
 As a user, I want to be able to subscribe to specific events, because I am either only interested in certain events, or because I want to react differently depending on the received event.
 

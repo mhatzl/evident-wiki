@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 13 (3 direct)
 
 As a user, I want to start and stop capturing during runtime, because I might not want to capture events during certain operations.
 

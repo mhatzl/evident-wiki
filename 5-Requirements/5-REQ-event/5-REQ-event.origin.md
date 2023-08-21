@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 11 (8 direct)
 
 As a user, I want to know the crate, module, and line number the event was set at, because this enables more filter options.
 
@@ -14,7 +14,7 @@ Macros must be used to get the event origin directly without user interaction.
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 
 The origin of an event points to the code location where the `set_event!()` macro was called.
 
@@ -22,7 +22,7 @@ The origin of an event points to the code location where the `set_event!()` macr
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 
 The origin differs for every call of `set_event!()` not in the same line, even if the event is the same.
 
@@ -30,6 +30,6 @@ The origin differs for every call of `set_event!()` not in the same line, even i
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 
 Set the same origin manually for an event that is set two times at different locations.

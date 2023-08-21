@@ -54,7 +54,10 @@ A requirement goes through the following phases:
    A **declined** requirement must be removed from the wiki if it already exists.
    This keeps the wiki small, and focused to implemented or *soon-to-be implemented* requirements.
 
-4. **active** ... When the implementation of a requirement is merged, the requirement gets **active**, and the number of times the requirement is referenced is added to the wiki
+4. **active** ... When the implementation of a requirement is merged, the requirement gets **active**
+
+   The number of times the requirement is referenced in the *evident* repository should be added to the wiki.
+   Tools may be used to achieve this.
 
    **Example:**
 
@@ -66,7 +69,20 @@ A requirement goes through the following phases:
    - in branch main: 2
    ```
 
-   If it is not possible to reference a requirement, `manual` may be set instead of the number of references.
+   For high-level requirements, the number of references is the sum of all sub-requirement references plus the number the requirement is directly referenced.
+   To see the number of direct references, `(<Number of references> direct)` is added after the overall number.
+
+   **Example:**
+
+   ```
+   # high_level: Some implemented high-level requirement
+   
+   **References**
+
+   - in branch main: 4 (1 direct)
+   ```
+
+   If it is not possible to reference a requirement, `manual` may be set manually instead of the number of references.
    This marks the requirement as **active**, but requiring manual verification.
 
    **Example:**

@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 4 (4 direct)
 
 As a user, I want to be able to start capturing, because I want to resume capturing after manually stopping it for a certain period.
 
@@ -12,10 +12,6 @@ Capturing is started by sending a special *start-event* to the event handler, be
 For more information, see [DR-20230809_1](6-DR-20230809_1).
 
 ## cap.ctrl.start.test: Events captured after capturing is started again
-
-**References**
-
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
 
 **Steps:**
 

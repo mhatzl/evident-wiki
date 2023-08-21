@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 4 (4 direct)
 
 As a user, I want to be able to stop capturing, because I might not want to capture events all the time.
 
@@ -12,10 +12,6 @@ Capturing is stopped by sending a special *stop-event* to the event handler, bec
 For more information, see [DR-20230809_1](6-DR-20230809_1).
 
 ## cap.ctrl.stop.test: Events not captured while capturing is stopped
-
-**References**
-
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
 
 **Steps:**
 

@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 6 (4 direct)
 
 As a user, I want that captured events are published to subscribers of the event, to create an event-driven architecture.
 

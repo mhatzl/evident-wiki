@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 3
 
 Sustainability is becoming more and more important.
 Therefore, sustainability should be considered during design decisions and development of *evident*.

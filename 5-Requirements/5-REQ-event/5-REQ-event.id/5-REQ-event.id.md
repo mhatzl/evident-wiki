@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 8 (5 direct)
 
 Every event must have a unique ID for subscribers to subscribe to.
 

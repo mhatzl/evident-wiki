@@ -2,7 +2,7 @@
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 25 (4 direct)
 
 As a user, I want that set events are captured and sent to subscribers, to create an event-driven architecture.
 
@@ -15,7 +15,7 @@ As a user, I want that set events are captured and sent to subscribers, to creat
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 
 A set event is sent to a subscriber that is subscribed to this event.
 
@@ -23,6 +23,6 @@ A set event is sent to a subscriber that is subscribed to this event.
 
 **References**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 
 Multiple set events are received by a subscriber that is subscribed to receive all set events.
