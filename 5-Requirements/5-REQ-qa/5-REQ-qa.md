@@ -13,7 +13,8 @@
 ## Active sub-requirements
 
 - [req:qa.DoD](5-REQ-qa.DoD)
-- [req:qa.tracing](5-REQ-qa.tracing)
 - [req:qa.perf](5-REQ-qa.perf)
 - [req:qa.pipeline](5-REQ-qa.pipeline)
+- [req:qa.sustain](5-REQ-qa.sustain)
+- [req:qa.tracing](5-REQ-qa.tracing)
 - [req:qa.ux](5-REQ-qa.ux)
