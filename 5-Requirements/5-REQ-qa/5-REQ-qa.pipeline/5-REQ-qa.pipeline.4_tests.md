@@ -1,4 +1,4 @@
-# qa.pipeline.4_tests:
+# qa.pipeline.4_tests: Ensure tests still pass
 
 **References**
 
