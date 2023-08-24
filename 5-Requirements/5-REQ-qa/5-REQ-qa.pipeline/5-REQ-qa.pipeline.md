@@ -7,7 +7,7 @@
 A QA pipeline that is run on every PR and push to *main* ensures higher code quality.\
 Running pipeline steps in a defined sequence prevents unnecessary checks, which improves sustainability (see: [req:qa.sustain](5-REQ-qa.sustain)).
 
-## Active sub-requirements
+## Sub-requirements
 
 - [req:qa.pipeline.1_style](5-REQ-qa.pipeline.1_style)
 - [req:qa.pipeline.2_lint](5-REQ-qa.pipeline.2_lint)

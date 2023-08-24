@@ -6,7 +6,7 @@
 
 As a user, I want to be able to add additional content to an event besides the event message, because content may be added conditionally.
 
-## Active sub-requirements
+## Sub-requirements
 
 - [req:event.entry.generic](5-REQ-event.entry.generic)
 - [req:event.entry.id](5-REQ-event.entry.id)

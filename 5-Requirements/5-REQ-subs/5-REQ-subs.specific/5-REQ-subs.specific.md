@@ -10,7 +10,7 @@ As a user, I want to be able to subscribe to specific events, because I am eithe
 
 Since events are identified using an event-ID, this ID must be used for subscriptions.
 
-## Active sub-requirements
+## Sub-requirements
 
 - [req:subs.specific.mult](5-REQ-subs.specific.mult)
 - [req:subs.specific.one](5-REQ-subs.specific.one)

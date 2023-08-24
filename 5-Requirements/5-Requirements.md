@@ -2,7 +2,7 @@ This section contains requirements for the system.
 
 ## Requirements Overview
 
-**High-Level Active Requirements:**
+**High-Level Requirements:**
 
 - [req:cap](5-REQ-cap) ... Contains requirements about capturing events
 - [req:event](5-REQ-event) ... Contains requirements about the structure of an event
@@ -10,7 +10,7 @@ This section contains requirements for the system.
 - [req:qa](5-REQ-qa) ... Contains requirements about general quality assurance
 - [req:subs](5-REQ-subs) ... Contains requirements about event-subscriptions
 
-**Important Active Requirements:**
+**Important Requirements:**
 
 - [req:event.id](5-REQ-event.id) ... Contains requirements about event-IDs
 - [req:pub](5-REQ-pub) ... Contains requirements about how events are published
@@ -29,6 +29,97 @@ IDs of sub-requirements are separated by a dot "." from the parent ID.
 my_req
 my_req.sub_req
 other_req.sub_req.even_lower_req
+```
+
+## Requirement structure
+### General structure
+
+Requirements should have a consistent structure to improve the readability.
+
+If [mantra](https://github.com/mhatzl/mantra) is used for tracing,
+every requirement must start with the heading with the ID assigned to the requirement.
+[mantra](https://github.com/mhatzl/mantra) uses a *references* list to trace requirements between the wiki, implementation, and tests.
+This list is placed by [mantra](https://github.com/mhatzl/mantra) directly below the requirement heading.
+
+**Note:** *References* lists may be manually modified, but must remain directly below the requirement heading.
+
+**Example:**
+
+```
+# req_id: Some title
+
+**References:**
+
+- in branch main: 2
+
+The description of the requirement.
+```
+
+## High-level requirements
+
+In addition to the general structure, high-level requirements should contain a section that links to sub-requirements
+that are one level *deeper*. This helps with navigation through the wiki.
+
+**Note:** This section should link to sub-requirements independent of their phase, because adapting this section would otherwise be too cumbersome.
+
+**Note:** Linking to sub-requirements that are more than one level *deeper* is also too cumbersome to maintain.
+
+**Note:** To keep pages short, sub-requirements should in general be placed in their own files.
+
+The syntax to reference requirements as defined in [req:qa.tracing](5-REQ-qa.tracing) may be used to link to sub-requirements.
+This allows to use [mantra](https://github.com/mhatzl/mantra) to update the links to those sub-requirements.
+
+**Example:**
+
+```
+# req_id: Some title
+
+**References:**
+
+- in branch main: 2
+
+The description of the high-level requirement.
+
+## Sub-requirements
+
+- [req:req_id.sub_req_1](5-REQ-req_id.sub_req_1) ... Optional description for this requirement
+- [req:req_id.sub_req_2](5-REQ-req_id.sub_req_2) ... Optional description for this requirement
+```
+
+## Adding tests to requirements
+
+Tests may be added to the wiki in the form of sub-requirements.
+However, creating a sub-requirement for each test case may be too tedious.
+In this case it is probably better to create an overall test requirement with `<your_req>.test` as ID.
+This requirement may then contain descriptions for multiple test cases, while only requiring to remember one ID.
+A "Definition of Done" specific to the requirement may then be defined that enforces that all test cases described in the `.test` ID must be fulfilled.
+
+**Note:** A requirement is **not** considered as high-level requirement if it only contains tests as sub-requirements.
+
+```
+# req_id: Some title
+
+**References:**
+
+- in branch main: 12 (2 direct)
+
+The description of the requirement.
+
+## req_id.test: Multiple test cases
+
+**References:**
+
+- in branch main: 10
+
+All test cases in this section must be fulfilled.
+
+### Test case 1
+
+Test something...
+
+### Test case 2
+
+Test something else...
 ```
 
 ## Requirement Phases
@@ -58,7 +149,7 @@ A requirement goes through the following phases:
 4. **active** ... When the implementation of a requirement is merged, the requirement gets **active**
 
    The number of times the requirement is referenced in the *evident* repository should be added to the wiki.
-   Tools may be used to achieve this.
+   [mantra](https://github.com/mhatzl/mantra) may be used to achieve this.
 
    **Example:**
 

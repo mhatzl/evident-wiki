@@ -6,7 +6,7 @@
 
 As a user, I want to start and stop capturing during runtime, because I might not want to capture events during certain operations.
 
-## Active sub-requirements
+## Sub-requirements
 
 - [req:cap.ctrl.info](5-REQ-cap.ctrl.info)
 - [req:cap.ctrl.init](5-REQ-cap.ctrl.init)

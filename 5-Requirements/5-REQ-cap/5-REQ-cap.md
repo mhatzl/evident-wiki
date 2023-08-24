@@ -6,7 +6,7 @@
 
 As a user, I want that set events are captured and sent to subscribers, to create an event-driven architecture.
 
-## Active sub-requirements
+## Sub-requirements
 
 - [req:cap.ctrl](5-REQ-cap.ctrl)
 - [req:cap.filter](5-REQ-cap.filter)

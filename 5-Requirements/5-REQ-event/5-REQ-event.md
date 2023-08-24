@@ -6,7 +6,7 @@
 
 As a user, I want to publish and subscribe to events, to create an event-driven architecture.
 
-## Active sub-requirements
+## Sub-requirements
 
 - [req:event.entry](5-REQ-event.entry)
 - [req:event.id](5-REQ-event.id)
