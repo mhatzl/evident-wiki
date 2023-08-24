@@ -1,6 +1,6 @@
 # event.entry.generic: Generic Event-Entry
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 

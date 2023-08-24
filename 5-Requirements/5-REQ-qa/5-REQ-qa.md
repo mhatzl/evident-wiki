@@ -1,6 +1,6 @@
 # qa: Quality Assurance
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 36 (0 direct)
 

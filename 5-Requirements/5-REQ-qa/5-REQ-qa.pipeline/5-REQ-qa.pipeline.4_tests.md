@@ -1,6 +1,6 @@
 # qa.pipeline.4_tests: Ensure tests still pass
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 

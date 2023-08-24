@@ -1,6 +1,6 @@
 # event: Structure of an *evident* event
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 38 (2 direct)
 

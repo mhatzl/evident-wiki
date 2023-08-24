@@ -1,6 +1,6 @@
 # pub.threaded: Multithreaded publishing
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 2 (1 direct)
 
@@ -8,7 +8,7 @@ As a user, I want to be able to set events in multiple threads, and be able to h
 
 ## pub.threaded.test: Events set in multiple threads received by subscriber
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 

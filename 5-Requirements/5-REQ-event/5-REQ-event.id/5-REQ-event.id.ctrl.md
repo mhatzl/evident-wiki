@@ -1,6 +1,6 @@
 # event.id.ctrl: Event-IDs for capture control
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 2
 

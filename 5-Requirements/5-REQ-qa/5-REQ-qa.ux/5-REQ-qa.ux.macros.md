@@ -1,6 +1,6 @@
 # qa.ux.macros: Use macros if it improves usability
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 6
 

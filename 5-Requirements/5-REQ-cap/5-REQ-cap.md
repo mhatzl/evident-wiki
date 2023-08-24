@@ -1,6 +1,6 @@
 # cap: Capturing Events
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 25 (4 direct)
 
@@ -13,7 +13,7 @@ As a user, I want that set events are captured and sent to subscribers, to creat
 
 ## cap.test.recv: Captured event received by a subscriber
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 
@@ -21,7 +21,7 @@ A set event is sent to a subscriber that is subscribed to this event.
 
 ## cap.test.mult: Multiple captured events received by a subscriber
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 

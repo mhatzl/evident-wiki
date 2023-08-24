@@ -1,6 +1,6 @@
 # qa.ux: User experience considerations
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 26 (0 direct)
 

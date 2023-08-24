@@ -1,6 +1,6 @@
 # subs.specific: Subscribe to specific events
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 5 (1 direct)
 

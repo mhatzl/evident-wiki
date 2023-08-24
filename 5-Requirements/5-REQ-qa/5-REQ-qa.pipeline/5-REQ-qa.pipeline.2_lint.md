@@ -1,6 +1,6 @@
 # qa.pipeline.2_lint: Ensure good coding standard
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 

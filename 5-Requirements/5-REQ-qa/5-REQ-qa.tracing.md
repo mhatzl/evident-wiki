@@ -1,6 +1,6 @@
 # qa.tracing: Use requirement IDs in the *evident* repository
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 1
 

@@ -1,6 +1,6 @@
 # cap.ctrl.info: Get Capturing-State
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 1 (1 direct)
 

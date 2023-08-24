@@ -1,6 +1,6 @@
 # qa.sustain: Consider sustainability during design and development
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 3
 

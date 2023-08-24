@@ -1,6 +1,6 @@
 # qa.ux.usage: Provide usage examples
 
-**References**
+**References:**
 
 - in branch [main](https://github.com/mhatzl/evident/tree/main): 20
 
