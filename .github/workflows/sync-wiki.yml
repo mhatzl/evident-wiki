@@ -1,9 +1,10 @@
 # Synchronize this repository with the project wiki 
-# name: "Sync Wiki"
-on: workflow_dispatch
-#   push:
-#     branches:
-#       - main
+name: sync-wiki
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   sync-wikis:
@@ -11,11 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          # PAT with repo & workflow permission
+          token: ${{ secrets.EVIDENT_WIKI_SYNC }}
+          fetch-depth: 0
       - name: Add wiki repo and push changes
-
-        # TODO: try to fix "remote: fatal: did not receive expected object 16a4c..." error
-
         # Note: `master` is the default branch for GitHub wikis
         run: |
           git config --global user.email "wikibot@blumafe.com"
