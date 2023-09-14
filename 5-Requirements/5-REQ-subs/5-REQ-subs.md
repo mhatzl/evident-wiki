@@ -2,7 +2,7 @@
 
 **References:**
 
-- in branch [main](https://github.com/mhatzl/evident/tree/main): 11 (3 direct)
+- in branch [main](https://github.com/mhatzl/evident/tree/main): 12 (4 direct)
 
 As a user, I want to subscribe to events, because I want to be able to react to them.
 
